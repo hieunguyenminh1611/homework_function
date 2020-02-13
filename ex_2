@@ -1,0 +1,29 @@
+Artist = "Mary J.Blige"
+AlbumTitle = "My life"
+DurationInSeconds = 257
+Song = "My  life"
+
+def Artist():
+    print("Mary J.Blige")
+    return
+
+def AlbumTitle():
+    print("My life")
+    return
+
+def DurationInSeconds():
+    print(257)
+    return
+
+
+def MoreThan(Age):
+    if (Age > 1000):
+        return False
+    else:
+        return True
+
+
+Artist()
+AlbumTitle()
+DurationInSeconds()
+print ("Eminem is 46 years old:", MoreThan(46))
